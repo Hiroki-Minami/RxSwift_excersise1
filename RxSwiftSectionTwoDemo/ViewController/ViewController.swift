@@ -41,9 +41,9 @@ class ViewController: UIViewController {
     
     collectionView.setCollectionViewLayout(generateComplicatedLayout(), animated: false)
     createDataSource()
-    postingOthersBackground()
-    
     setObservable()
+    
+    postingOthersBackground()
   }
   
   override func viewDidDisappear(_ animated: Bool) {
